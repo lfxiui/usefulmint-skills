@@ -1,0 +1,14 @@
+{
+  "name": "usefulmint",
+  "owner": {
+    "name": "Useful Mint",
+    "url": "https://usefulmint.com"
+  },
+  "description": "Free Agent Skills from Useful Mint for people who build with AI but don't write code.",
+  "plugins": [
+    {
+      "name": "usefulmint",
+      "source": "./"
+    }
+  ]
+}

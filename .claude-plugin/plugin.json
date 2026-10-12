@@ -1,0 +1,23 @@
+{
+  "name": "usefulmint",
+  "displayName": "Useful Mint",
+  "version": "1.0.0",
+  "description": "Free Agent Skills from Useful Mint: check an AI-built site before it goes live, build an original brand palette, and turn notes into a clear presentation.",
+  "author": {
+    "name": "Useful Mint",
+    "url": "https://usefulmint.com"
+  },
+  "homepage": "https://usefulmint.com/skills/",
+  "repository": "https://github.com/lfxiui/usefulmint-skills",
+  "license": "MIT",
+  "keywords": [
+    "agent-skills",
+    "launch-check",
+    "brand-palette",
+    "presentation",
+    "no-code",
+    "design"
+  ],
+  "documentationUrl": "https://usefulmint.com/skills/install/",
+  "privacyPolicyUrl": "https://usefulmint.com/privacy/"
+}

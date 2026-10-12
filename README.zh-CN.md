@@ -1,0 +1,58 @@
+# Useful Mint Skills
+
+免费的 Agent Skill：交给你正在用的 AI，把一件真事做完。为用 AI 做东西、但不写代码的人准备。
+
+每个 Skill 都是标准的 `SKILL.md` 文件夹，Claude Code、Codex、Cursor 等工具都读这种格式；也可以上传到 claude.ai 和 Cowork。
+
+目前的实测：`launch-check` 在 Claude Code、Codex 和 Cursor 里测过（10 月 7 日）；`brand-palette` 和 `clear-deck` 在 Claude Code 和 Codex 里测过（10 月 12 日），Cursor 还没测。三个 Skill 都还没测过上传到 claude.ai 和 Cowork。完整的实测记录在 usefulmint.com 上各 Skill 的页面里。
+
+[English](README.md)
+
+| Skill                                                                                                                                              | 你会拿到                                                                                                         | 你要准备                           | 可以这样说                     |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ------------------------------ |
+| [`launch-check`](https://usefulmint.com/zh/skills/launch-check/?utm_source=github&utm_medium=readme&utm_campaign=ecosystem_public-skills_202610)   | 一份看得懂的上线前检查报告：泄露的密钥、打不开的页面、缺少的配置、手机上的显示问题。你同意后修掉能安全修的部分。 | 你的项目，以及准备发布到哪里       | “上线前帮我检查一下这个网站。” |
+| [`brand-palette`](https://usefulmint.com/zh/skills/brand-palette/?utm_source=github&utm_medium=readme&utm_campaign=ecosystem_public-skills_202610) | 一套原创的五色配色，附可编辑的 SVG 和 CSS 颜色值，每组文字搭配都给出对比度数字。                                 | 品牌介绍、用户和希望表达的气质     | “给我的陶艺工作室配一套颜色。” |
+| [`clear-deck`](https://usefulmint.com/zh/skills/clear-deck/?utm_source=github&utm_medium=readme&utm_campaign=ecosystem_public-skills_202610)       | 一份简短的演示：可编辑的 SVG 幻灯片和讲稿，每页只讲一个观点。                                                    | 原始材料、听众，以及希望促成的决定 | “把这些笔记做成 6 页提案。”    |
+
+## 安装
+
+**Claude Code**
+
+```bash
+claude plugin marketplace add lfxiui/usefulmint-skills
+claude plugin install usefulmint@usefulmint
+```
+
+之后直接描述任务，或者输入 `/usefulmint:launch-check`。
+
+**Codex、Cursor 和其他工具**（用 [`npx skills`](https://github.com/vercel-labs/skills)）
+
+```bash
+npx skills add lfxiui/usefulmint-skills
+```
+
+只装一个就加上 `--skill brand-palette`。
+
+**claude.ai 和 Cowork**
+
+在 [Releases](https://github.com/lfxiui/usefulmint-skills/releases) 下载某个 Skill 的 zip，然后在 Claude 设置的 Skills 里上传。
+
+**不用终端？**
+
+在 [usefulmint.com](https://usefulmint.com/zh/skills/?utm_source=github&utm_medium=readme&utm_campaign=ecosystem_public-skills_202610) 打开对应的 Skill，复制安装话术发给你的 AI。AI 会自己下载，写入文件前先问你。
+
+## 这些 Skill 不会做的事
+
+- 不经你同意就发布、发消息、购买素材或开始付费生成。
+- 承诺 PowerPoint 文件：`clear-deck` 交付 SVG 幻灯片和讲稿，只有在真有演示文稿库可用时才导出 PPTX。
+- 悄悄改你的项目：`launch-check` 每次修改前都会问你；真机显示和线上配置仍需你自己确认。
+
+## 下一步
+
+- `launch-check` 之后：[**Error Rescue**](https://usefulmint.com/zh/skills/error-rescue/?utm_source=github&utm_medium=readme&utm_campaign=ecosystem_public-skills_202610)（Pro），和你一起看懂报错并修好。
+
+[查看全部 Skill](https://usefulmint.com/zh/skills/?utm_source=github&utm_medium=readme&utm_campaign=ecosystem_public-skills_202610)
+
+## 许可证
+
+MIT。由 [Useful Mint](https://usefulmint.com/zh/?utm_source=github&utm_medium=readme&utm_campaign=ecosystem_public-skills_202610) 制作。

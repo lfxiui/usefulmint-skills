@@ -1,8 +1,8 @@
 {
   "name": "usefulmint",
   "displayName": "Useful Mint",
-  "version": "1.0.0",
-  "description": "Free Agent Skills from Useful Mint: check an AI-built site before it goes live, build an original brand palette, and turn notes into a clear presentation.",
+  "version": "1.1.0",
+  "description": "Twelve free Agent Skills from Useful Mint: check a site before launch, build original palettes, posters, icons and diagrams, turn notes into decks and cards, and ship a portfolio or landing page.",
   "author": {
     "name": "Useful Mint",
     "url": "https://usefulmint.com"
@@ -15,6 +15,11 @@
     "launch-check",
     "brand-palette",
     "presentation",
+    "poster",
+    "diagram",
+    "icons",
+    "landing-page",
+    "portfolio",
     "no-code",
     "design"
   ],

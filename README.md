@@ -55,6 +55,8 @@ npx skills add lfxiui/usefulmint-skills
 
 Add `--skill brand-palette` to install a single Skill.
 
+In Codex, `/skills` → Enable/Disable Skills turns a Skill off. In our tests on Codex CLI 0.166.0 with one model, Codex no longer used a Skill that was off when we only described the task, but naming it with `$` in a message still pulled it in. More in [Skills for Codex](https://usefulmint.com/skills/codex/?utm_source=github&utm_medium=readme&utm_campaign=ecosystem_public-skills_202610).
+
 **claude.ai and Cowork**
 
 Download a Skill's zip from [Releases](https://github.com/lfxiui/usefulmint-skills/releases) and upload it under Skills in Claude's settings.

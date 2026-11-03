@@ -55,6 +55,8 @@ npx skills add lfxiui/usefulmint-skills
 
 只装一个就加上 `--skill brand-palette`。
 
+在 Codex 里，`/skills` → Enable/Disable Skills 可以关掉一个 Skill。我们在 Codex CLI 0.166.0 上用一个模型实测：关掉以后，只描述任务时 Codex 没有再用上它，但在消息里用 `$` 点名，还是会把它带进来。详见 [Codex 用的 Skill](https://usefulmint.com/zh/skills/codex/?utm_source=github&utm_medium=readme&utm_campaign=ecosystem_public-skills_202610)。
+
 **claude.ai 和 Cowork**
 
 在 [Releases](https://github.com/lfxiui/usefulmint-skills/releases) 下载某个 Skill 的 zip，然后在 Claude 设置的 Skills 里上传。
